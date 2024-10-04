@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    /* Dark background */
+    color: #FFFFFF;
+    /* Light text color */
+}
+
+.board {
+    width: 160px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    gap: 5px;
+    /* Add some space between cells */
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    background-color: #1E1E1E;
+    /* Dark cell background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    /* Cell text color */
+    border: 1px solid #333333;
+    /* Darker border */
+}
+
+.cell button {
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    /* Button text color */
+}
+
+.cell button:hover {
+    background-color: #333333;
+    /* Hover effect */
+}
+
+.message {
+    font-size: 18px;
+    margin: 10px;
+    color: #FFFFFF;
+    /* Message text color */
+}
+
+.reset-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #1E1E1E;
+    /* Button background */
+    color: #FFFFFF;
+    /* Button text color */
+    border: none;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: #333333;
+    /* Hover effect */
+}
+
+h1 {
+    color: #FFFFFF;
+    /* Heading text color */
+}
